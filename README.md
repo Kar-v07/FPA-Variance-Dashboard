@@ -1,5 +1,5 @@
-# FPA-Variance-Dashboard
-
+# FPA-Variance-Dashboard 
+![FP&A Variance Dashboard Screenshot]('/Users/kartik/Desktop/Screenshot 2026-10-18 at 8.32.54 AM.png')
 Automated FP&A & Revenue Variance Dashboard
 
 ## What this project is about
