@@ -7,10 +7,10 @@ Like a lot of finance teams at mid-sized SaaS companies, our fictional company, 
 I wanted to build a streamlined, end-to-end analytics pipeline that automatically tracks Revenue, COGS, and Operating Expenses (Opex) against budget—and instantly flags any regions or products falling off track.
 
 ## How I built it (Tech Stack & AI Workflow)
-* **AI-Assisted Database Generation (Python):** Collaborated with AI as a development partner to write and refine a Python data-generation script (`pandas`, `numpy`).
-* This helped quickly build a realistic local SQLite database containing "573,250+" transaction rows, complete with seasonal trends and embedded financial stories.
-* Data Modeling & SQL (SQLite): Querying raw transactions directly is inefficient for reporting, so I structured clean relational SQL views (`v_bva`) to handle monthly aggregations and automate variance flags (`> 5%` threshold).
-* Visualization (Tableau Public):Built an executive-ready dashboard so leadership can quickly review actuals vs. budget, regional variance matrices, and departmental spend.
+* AI-Assisted Data Generation & Python Pipeline: Partnered with AI tooling to design a custom Python data-generation script using pandas and numpy, cleaning duplicate values and modeling realistic financial anomalies.
+* Large-Scale SQLite Database Engineering: Built a robust local SQLite database containing over 573,250+ transaction rows, incorporating seasonal trends and embedded financial narratives.
+* SQL Data Modeling & Performance Optimization: Structured clean relational SQL views (v_bva) to optimize monthly aggregations and automate variance flags for transactions exceeding the 5% threshold.
+* Executive Tableau Visualization: Developed an executive-ready Tableau Public dashboard displaying actuals versus budget, regional variance matrices, and departmental spend.
 
 ## Key Insights Uncovered
 1. The APAC Services Drop: APAC Services ran roughly 25% below budget starting in July 2025, which turned out to be the primary top-line revenue drag.
